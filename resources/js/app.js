@@ -5,8 +5,8 @@
  */
 import index from './view/index'
 import VueWechatTitle from 'vue-wechat-title'
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+/*import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'*/
 
 require('./bootstrap');
 
@@ -25,7 +25,7 @@ window.Vue = require('vue');
 
 
 Vue.use(VueWechatTitle);
-Vue.use(ElementUI);
+/*Vue.use(ElementUI);*/
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
